@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sancho.Client.Plugin.DebugLog", "Sancho.Client.Plugin.DebugLog\Sancho.Client.Plugin.DebugLog.csproj", "{D2909849-6126-4241-8D31-ACAB04EF4E57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2909849-6126-4241-8D31-ACAB04EF4E57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2909849-6126-4241-8D31-ACAB04EF4E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2909849-6126-4241-8D31-ACAB04EF4E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2909849-6126-4241-8D31-ACAB04EF4E57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
