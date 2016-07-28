@@ -12,6 +12,8 @@ namespace Sancho.Client.Plugin.DebugLog
 
         public string Name => "plugin-debuglog";
 
+        public bool IsEnabled { get; set; }
+
         public DebugLogPlugin(Connection connection)
         {
             if (connection == null)
@@ -25,6 +27,9 @@ namespace Sancho.Client.Plugin.DebugLog
             // this plugin doesn't receive any messages
         }
 
-        public Task Log(string text) => connection.SendAsync(Name, "log", text);
+        public Task Log(string text) =>
+            IsEnabled
+                ? connection.SendAsync(Name, "log", text)
+                : Task.FromResult(false);
     }
 }
