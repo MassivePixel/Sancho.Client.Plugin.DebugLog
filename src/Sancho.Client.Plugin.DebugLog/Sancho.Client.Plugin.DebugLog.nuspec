@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Sancho.Client.Plugin.DebugLog</id>
+    <version>0.1.0-alpha</version>
+    <title>DebugLog plugin for Sancho</title>
+    <authors>Toni Petrina</authors>
+    <owners>Massive Pixel d.o.o.</owners>
+    <description>Simple plugin for logging debug information to Sancho.</description>
+    <releaseNotes>Initial version</releaseNotes>
+    <copyright>Copyright Massive Pixel d.o.o. 2016</copyright>
+    <tags>xamarin uwp debug diagnostics realtime</tags>
+  </metadata>
+</package>
